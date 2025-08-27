@@ -3,13 +3,12 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "SuperClaude"
+name = "light-superclaude"
 version = "4.0.8"
 authors = [
-    {name = "NomenAK", email = "anton.knoery@gmail.com"},
-    {name = "Mithun Gowda B", email = "mithungowda.b7411@gmail.com"}
+    {name = "Sions", email = "sions@example.com"}
 ]
-description = "SuperClaude Framework Management Hub - AI-enhanced development framework for Claude Code"
+description = "Light SuperClaude Framework - A lightweight fork of SuperClaude focused on essential features and improved performance"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.8"
@@ -28,18 +27,18 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
     "Environment :: Console",
 ]
-keywords = ["claude", "ai", "automation", "framework", "mcp", "agents", "development", "code-generation", "assistant"]
+keywords = ["light-superclaude", "claude", "ai", "automation", "framework", "mcp", "agents", "development", "code-generation", "assistant", "lightweight"]
 dependencies = [
     "setuptools>=45.0.0",
     "importlib-metadata>=1.0.0; python_version<'3.8'"
 ]
 
 [project.urls]
-Homepage = "https://github.com/SuperClaude-Org/SuperClaude_Framework"
-GitHub = "https://github.com/SuperClaude-Org/SuperClaude_Framework"
-"Bug Tracker" = "https://github.com/SuperClaude-Org/SuperClaude_Framework/issues"
-"Mithun Gowda B" = "https://github.com/mithun50"
-"NomenAK" = "https://github.com/NomenAK"
+Homepage = "https://github.com/mrsions/light-superclaude"
+GitHub = "https://github.com/mrsions/light-superclaude"
+"Bug Tracker" = "https://github.com/mrsions/light-superclaude/issues"
+"Original SuperClaude" = "https://github.com/SuperClaude-Org/SuperClaude_Framework"
+"Author" = "https://github.com/mrsions"
 
 [project.scripts]
 SuperClaude = "SuperClaude.__main__:main"

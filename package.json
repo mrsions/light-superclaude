@@ -1,7 +1,7 @@
 {
-  "name": "@bifrost_inc/superclaude",
+  "name": "@sions/light-superclaude",
   "version": "4.0.8",
-  "description": "SuperClaude Framework NPM wrapper - Official Node.js wrapper for the Python SuperClaude package. Enhances Claude Code with specialized commands and AI development tools.",
+  "description": "Light SuperClaude - A lightweight fork of SuperClaude focused on essential features and improved performance. Enhances Claude Code with streamlined commands and AI development tools.",
   "scripts": {
     "postinstall": "node ./bin/install.js",
     "update": "node ./bin/update.js",
@@ -14,19 +14,20 @@
     "LICENSE"
   ],
   "author": {
-    "name": "SuperClaude Org",
-    "url": "https://github.com/SuperClaude-Org"
+    "name": "Sions",
+    "url": "https://github.com/mrsions"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SuperClaude-Org/SuperClaude_Framework.git"
+    "url": "git+https://github.com/mrsions/light-superclaude.git"
   },
   "bugs": {
-    "url": "https://github.com/SuperClaude-Org/SuperClaude_Framework/issues"
+    "url": "https://github.com/mrsions/light-superclaude/issues"
   },
-  "homepage": "https://github.com/SuperClaude-Org/SuperClaude_Framework#readme",
+  "homepage": "https://github.com/mrsions/light-superclaude#readme",
   "license": "MIT",
   "keywords": [
+    "light-superclaude",
     "superclaude",
     "ai",
     "cli",
@@ -34,14 +35,15 @@
     "python",
     "wrapper",
     "cross-platform",
-    "automation"
+    "automation",
+    "lightweight"
   ],
   "engines": {
     "node": ">=16"
   },
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/NomenAK"
+    "url": "https://github.com/sponsors/mrsions"
   },
   "publishConfig": {
     "access": "public",
